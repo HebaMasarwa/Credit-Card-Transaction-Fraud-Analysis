@@ -28,7 +28,8 @@ The dataset source is [Credit Card Transactions Dataset](https://www.kaggle.com/
 
 
 ## Files
-- `eda.ipynb` - Exploratory Data Analysis of the dataset  
+- `eda.ipynb` - Exploratory Data Analysis of the dataset
+- `modeling.ipynb` - Model Implementation
 - (Other files to be added later)
 
 ## Tools Used
