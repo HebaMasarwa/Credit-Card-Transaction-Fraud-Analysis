@@ -22,6 +22,15 @@ The dataset source is [Credit Card Transactions Dataset](https://www.kaggle.com/
 - **Insights & Storytelling**
 
 ## Key Insights
+### From Modeling
+
+- **Top Features:** `amt`, `time_bin_encoded` & `trans_time_numeric` , `age`, and `merchant's geolocation` — these most influence fraud detection.  
+- **Performance:**  
+  - Recall (non-fraud): 1.00  
+  - Recall (fraud): 0.65  
+  - F1-score (fraud): 0.62  
+  - Macro F1: 0.81  
+  - Weighted F1: 1.00  
 
 
 ## Conclusion
