@@ -16,31 +16,23 @@ The dataset source is [Credit Card Transactions Dataset](https://www.kaggle.com/
 - **Exploratory Data Analysis**  
 - **Feature Engineering**
 - **Modeling**
-
+  - **Model Used:** Decision Tree
+  - **Top Features:** `amt`, `time_bin_encoded` & `trans_time_numeric` , `age`, and `merchant's geolocation` — these most influence fraud detection.  
+  - **Performance:**  
+    - Recall (non-fraud): 1.00  
+    - Recall (fraud): 0.65  
+    - F1-score (fraud): 0.62  
+    - Macro F1: 0.81  
+    - Weighted F1: 1.00
+  
 ### Tableau
-- **Dashboard Creation**  
-- **Insights & Storytelling**
-
-## Key Insights
-### From Modeling
-
-- **Top Features:** `amt`, `time_bin_encoded` & `trans_time_numeric` , `age`, and `merchant's geolocation` — these most influence fraud detection.  
-- **Performance:**  
-  - Recall (non-fraud): 1.00  
-  - Recall (fraud): 0.65  
-  - F1-score (fraud): 0.62  
-  - Macro F1: 0.81  
-  - Weighted F1: 1.00  
-
-
-## Conclusion
-
+- [Dashboard](https://public.tableau.com/app/profile/heba.masarwa/viz/CreditCardFraudDetectionDashboard_17583014951040/credcarddetectiondashboard?publish=yes)
 
 ## Files
 - `eda.ipynb` - Exploratory Data Analysis of the dataset
 - `modeling.ipynb` - Model Implementation
-- (Other files to be added later)
 
 ## Tools Used
 - Python (Pandas, Scikit-learn, Matplotlib, Seaborn) (version 3.13.1)  
 - Jupyter Notebook
+- Tableau
